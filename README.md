@@ -51,18 +51,14 @@ sudo emerge lastpass-cli
 Install the packages listed in the Dependencies section of this document.
 
 ### Installing on OS X
-You'll need to have Xcode installed and working. You can use different packages mangers for OS X like Homebrew/MacPorts/Fink. These instructions use Homebrew. In the future this package MAY become a home brew package.
-
-* Install homebrew folowing the instructions at http://brew.sh/
-* Brew install the needed dependencies (type the command below in your terminal)
-* The below does not include packages needed for clipboard support.
+* Install homebrew following the instructions at http://brew.sh/
+* Install lastpass-cli using homebrew:
 
 ```
-brew install openssl curl libxml2 pinentry-mac asciidoc
+brew install lastpass-cli
 ```
 
-* Note: If you get an error about needed "sudo" for the make command, that means you haven't launched xcode and accepted Apple's license agreement.
-
+Optionally you can add `--with-doc` to also install the documentation.
 
 ## Building
 
